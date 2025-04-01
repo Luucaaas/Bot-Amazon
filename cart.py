@@ -1,12 +1,17 @@
 from selenium.webdriver.common.by import By
-import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-def add_to_cart(driver):
-    """Ajoute le produit au panier."""
+def buy_now(driver):
+    """Clique sur le bouton Achat immédiat si disponible."""
     try:
-        add_to_cart_button = driver.find_element(By.ID, "add-to-cart-button")
-        add_to_cart_button.click()
-        print("Produit ajouté au panier.")
-        time.sleep(2)  # Laisse le temps à la page de charger
-    except:
-        print("Échec de l'ajout au panier.")
+        buy_now_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.ID, "buy-now-button"))
+        )
+        buy_now_button.click()
+        print("✅ Bouton 'Achat immédiat' cliqué avec succès.")
+
+        # Ici, ajouter la gestion de la connexion et du paiement si nécessaire
+
+    except Exception as e:
+        print(f"❌ Impossible de cliquer sur 'Achat immédiat' : {e}")
