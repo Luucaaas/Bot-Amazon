@@ -1,0 +1,2 @@
+
+PRODUCT_URL = "https://www.amazon.fr/JCC-Pok%C3%A9mon-boosters-%C3%89carlate-Aventures-boosters/dp/B0DZ2QXNDW?ref_=ast_sto_dp"
