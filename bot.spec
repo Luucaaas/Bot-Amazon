@@ -43,12 +43,3 @@ exe = EXE(
     console=True,  # Mettre à False pour cacher la console
 )
 
-coll = COLLECT(
-    exe,
-    a.binaries,
-    a.zipfiles,
-    a.datas,
-    strip=False,
-    upx=True,
-    name=exe_name,
-)
