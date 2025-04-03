@@ -50,7 +50,7 @@ def check_seller_and_sender(driver):
         print(f"⚠️ Erreur dans la vérification du vendeur/expéditeur : {e}")
         return False
 
-def check_availability(driver, max_retries=20, refresh_interval=45):
+def check_availability(driver, max_retries=1, refresh_interval=45):
     """Vérifie si le produit est en stock et vendu/expédié par Amazon.
        Rafraîchit la page toutes les 45 secondes jusqu'à `max_retries` tentatives.
     """
@@ -68,7 +68,7 @@ def check_availability(driver, max_retries=20, refresh_interval=45):
             print("📦 Disponibilité :", stock_text)
 
             # Vérifier si le produit est en stock
-            if "en stock" in stock_text.lower():
+            if "En stock" in stock_text.lower():
                 # Vérifier le vendeur et l'expéditeur
                 if check_seller_and_sender(driver):
                     print("✅ Le produit est disponible et vendu/expédié par Amazon.")
