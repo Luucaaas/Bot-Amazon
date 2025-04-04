@@ -23,6 +23,5 @@ buy_now(bot.driver)
 skip_prime_offer(bot.driver)
 
 proceed_to_checkout(bot.driver)
-#input("Appuyez sur Entrée pour fermer le navigateur...")
 
 bot.close_browser()
