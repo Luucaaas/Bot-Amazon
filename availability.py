@@ -79,7 +79,6 @@ def check_availability(driver, max_retries=10, refresh_interval=45):
         except (NoSuchElementException, TimeoutException):
             print("⚠️ Produit non disponible ou l'élément 'En stock' est introuvable.")
 
-        # ➕ Ajout ici : pour continuer sans crash
         if attempt < max_retries:
             print(f"🕒 Attente de {refresh_interval} secondes avant de rafraîchir...")
             time.sleep(refresh_interval)

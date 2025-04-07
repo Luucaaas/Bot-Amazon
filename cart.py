@@ -11,7 +11,6 @@ def buy_now(driver):
         buy_now_button.click()
         print("✅ Bouton 'Achat immédiat' cliqué avec succès.")
 
-        # Ici, ajouter la gestion de la connexion et du paiement si nécessaire
 
     except Exception as e:
         print(f"❌ Impossible de cliquer sur 'Achat immédiat' : {e}")

@@ -22,7 +22,6 @@ def proceed_to_checkout(driver):
         driver.execute_script("arguments[0].scrollIntoView();", button_element)
     
 
-        # Cliquer sur le bouton
         button_element.click()
         print("✅ Commande validée avec succès !")
     
