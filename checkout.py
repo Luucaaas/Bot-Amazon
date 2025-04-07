@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from screenshot import take_screenshot_on_error
 import time
 
 def proceed_to_checkout(driver):
@@ -29,3 +30,4 @@ def proceed_to_checkout(driver):
         print("❌ Le bouton 'Validez votre commande' n'a pas été trouvé.")
     except Exception as e:
         print(f"⚠️ Erreur inattendue : {e}")
+        take_screenshot_on_error(driver)

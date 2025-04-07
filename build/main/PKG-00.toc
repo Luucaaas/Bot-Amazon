@@ -160,9 +160,6 @@
   ('lib-dynload/_queue.cpython-312-darwin.so',
    '/Users/lucas/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_queue.cpython-312-darwin.so',
    'EXTENSION'),
-  ('lib-dynload/_heapq.cpython-312-darwin.so',
-   '/Users/lucas/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_heapq.cpython-312-darwin.so',
-   'EXTENSION'),
   ('lib-dynload/_multibytecodec.cpython-312-darwin.so',
    '/Users/lucas/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_multibytecodec.cpython-312-darwin.so',
    'EXTENSION'),
@@ -184,6 +181,9 @@
   ('lib-dynload/_codecs_hk.cpython-312-darwin.so',
    '/Users/lucas/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_codecs_hk.cpython-312-darwin.so',
    'EXTENSION'),
+  ('lib-dynload/_heapq.cpython-312-darwin.so',
+   '/Users/lucas/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_heapq.cpython-312-darwin.so',
+   'EXTENSION'),
   ('lib-dynload/_json.cpython-312-darwin.so',
    '/Users/lucas/.pyenv/versions/3.12.2/lib/python3.12/lib-dynload/_json.cpython-312-darwin.so',
    'EXTENSION'),
@@ -196,35 +196,31 @@
   ('libintl.8.dylib',
    '/opt/homebrew/opt/gettext/lib/libintl.8.dylib',
    'BINARY'),
-  ('libcrypto.3.dylib',
-   '/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib',
-   'BINARY'),
   ('libssl.3.dylib',
    '/opt/homebrew/opt/openssl@3/lib/libssl.3.dylib',
+   'BINARY'),
+  ('libcrypto.3.dylib',
+   '/opt/homebrew/opt/openssl@3/lib/libcrypto.3.dylib',
    'BINARY'),
   ('config.json', '/Users/lucas/Desktop/Bot Amazon/config.json', 'DATA'),
   ('product_url.txt',
    '/Users/lucas/Desktop/Bot Amazon/product_url.txt',
    'DATA'),
-  ('selenium/webdriver/firefox/webdriver_prefs.json',
+  ('selenium/webdriver/remote/isDisplayed.js',
    '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/firefox/webdriver_prefs.json',
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/isDisplayed.js',
    'DATA'),
   ('selenium/webdriver/remote/findElements.js',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/findElements.js',
    'DATA'),
-  ('selenium/webdriver/remote/isDisplayed.js',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/isDisplayed.js',
-   'DATA'),
-  ('selenium/webdriver/common/windows/selenium-manager.exe',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/windows/selenium-manager.exe',
-   'DATA'),
   ('selenium/webdriver/remote/getAttribute.js',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/getAttribute.js',
+   'DATA'),
+  ('selenium/py.typed',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/py.typed',
    'DATA'),
   ('selenium/webdriver/common/mutation-listener.js',
    '/Users/lucas/Desktop/Bot '
@@ -234,6 +230,10 @@
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/devtools/v134/py.typed',
    'DATA'),
+  ('selenium/webdriver/firefox/webdriver_prefs.json',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/firefox/webdriver_prefs.json',
+   'DATA'),
   ('selenium/webdriver/common/linux/selenium-manager',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager',
@@ -242,21 +242,21 @@
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/devtools/v132/py.typed',
    'DATA'),
+  ('selenium/webdriver/common/windows/selenium-manager.exe',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/windows/selenium-manager.exe',
+   'DATA'),
   ('selenium/webdriver/common/devtools/v133/py.typed',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/devtools/v133/py.typed',
    'DATA'),
-  ('selenium/py.typed',
+  ('certifi/py.typed',
    '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/py.typed',
+   'Amazon/venv/lib/python3.12/site-packages/certifi/py.typed',
    'DATA'),
   ('certifi/cacert.pem',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/certifi/cacert.pem',
-   'DATA'),
-  ('certifi/py.typed',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/certifi/py.typed',
    'DATA'),
   ('base_library.zip',
    '/Users/lucas/Desktop/Bot Amazon/build/main/base_library.zip',

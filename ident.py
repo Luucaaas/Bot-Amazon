@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from screenshot import take_screenshot_on_error
 
 def login_amazon(driver, email, password):
     """Gère l'identification automatique sur Amazon si la page de connexion apparaît."""
@@ -35,4 +36,5 @@ def login_amazon(driver, email, password):
 
     except (TimeoutException, NoSuchElementException) as e:
         print(f"⚠️ Problème lors de l'identification : {e}")
+        take_screenshot_on_error(driver)
         return False

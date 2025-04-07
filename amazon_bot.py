@@ -4,7 +4,7 @@ import config
 class AmazonBot:
     def __init__(self):
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")  # Mode sans interface
+        #options.add_argument("--headless")  # Mode sans interface
         self.driver = webdriver.Chrome(options=options)
 
     def open_product_page(self, url):
