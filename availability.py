@@ -37,31 +37,26 @@ def check_seller_and_sender(driver):
         print("❌ Le produit n'est pas vendu/expédié par Amazon.")
     return False
 
-def check_availability(driver, max_retries=1, refresh_interval=45):
+def check_availability(driver, max_retries=10, refresh_interval=45):
     """Vérifie si le produit est en stock sur Amazon.
        Rafraîchit la page toutes les 45 secondes jusqu'à `max_retries` tentatives.
     """
-    accept_cookies(driver)  # Gérer les cookies avant de vérifier la disponibilité
+    accept_cookies(driver)
 
-    for attempt in range(10, max_retries + 1):
+    for attempt in range(1, max_retries + 1):
         try:
             print(f"🔄 Vérification du stock (tentative {attempt}/{max_retries})...")
 
-            # XPath pour détecter "En stock"
             stock_xpath = "(//span[contains(@class, 'a-size-medium') and contains(@class, 'a-color-success') and contains(text(), 'En stock')])[2]"
 
-            # Attente pour s'assurer que l'élément est bien chargé
             stock_element = WebDriverWait(driver, 5).until(
                 EC.visibility_of_element_located((By.XPATH, stock_xpath))
             )
 
-            # Déplacer la vue sur l'élément pour éviter les erreurs
             driver.execute_script("arguments[0].scrollIntoView();", stock_element)
-            time.sleep(1)  # Pause pour éviter un bug de lecture rapide
+            time.sleep(1)
 
-            print("🔍 Debug XPath: Recherche de l'élément 'En stock'...")
             stock_elements = driver.find_elements(By.XPATH, stock_xpath)
-
             if stock_elements:
                 print(f"✅ Élément(s) trouvé(s) : {len(stock_elements)}")
                 for elem in stock_elements:
@@ -70,12 +65,11 @@ def check_availability(driver, max_retries=1, refresh_interval=45):
                     except:
                         print("⚠️ Erreur lors de la récupération du texte.")
             else:
-                print("❌ Aucun élément 'En stock' trouvé.")    
+                print("❌ Aucun élément 'En stock' trouvé.")
 
             stock_text = stock_element.text.strip()
             print(f"📦 Disponibilité détectée : {stock_text}")
 
-            # Vérifier si le produit est en stock
             if "en stock" in stock_text.lower():
                 print("✅ Le produit est disponible !")
                 return True
@@ -83,9 +77,9 @@ def check_availability(driver, max_retries=1, refresh_interval=45):
                 print("❌ Produit toujours indisponible.")
 
         except (NoSuchElementException, TimeoutException):
-            print("⚠️ Impossible de récupérer la disponibilité du produit.")
+            print("⚠️ Produit non disponible ou l'élément 'En stock' est introuvable.")
 
-        # Si on arrive ici, c'est que le produit n'est pas dispo => on attend et on rafraîchit
+        # ➕ Ajout ici : pour continuer sans crash
         if attempt < max_retries:
             print(f"🕒 Attente de {refresh_interval} secondes avant de rafraîchir...")
             time.sleep(refresh_interval)
@@ -93,7 +87,7 @@ def check_availability(driver, max_retries=1, refresh_interval=45):
         else:
             print("❌ Le produit est toujours indisponible après plusieurs tentatives.")
             driver.quit()
-            exit()  # Fermeture propre du bot
+            sys.exit()
 
     return False
 
