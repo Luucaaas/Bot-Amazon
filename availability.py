@@ -4,9 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from kpi import send_kpi_to_bigquery
+import get_product
+from config import EMAIL
 
 def accept_cookies(driver):
-    """Vérifie et accepte les cookies si la pop-up est présente."""
     try:
         cookies_button = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable((By.ID, "sp-cc-accept"))
@@ -18,7 +20,6 @@ def accept_cookies(driver):
         print("ℹ️ Pas de pop-up cookies détectée.")
 
 def check_seller_and_sender(driver):
-    """Vérifie si le produit est vendu et expédié par Amazon."""
     try:
         seller_xpath = '//span[contains(text(),"Vendu par")]/following-sibling::span[contains(text(),"Amazon")]'
         shipper_xpath = '//span[contains(text(),"Expédié par")]/following-sibling::span[contains(text(),"Amazon")]'
@@ -38,10 +39,9 @@ def check_seller_and_sender(driver):
     return False
 
 def check_availability(driver, max_retries=10, refresh_interval=45):
-    """Vérifie si le produit est en stock sur Amazon.
-       Rafraîchit la page toutes les 45 secondes jusqu'à `max_retries` tentatives.
-    """
     accept_cookies(driver)
+    account_id = EMAIL
+    PRODUCT_URL = get_product.get_product_url()
 
     for attempt in range(1, max_retries + 1):
         try:
@@ -72,12 +72,14 @@ def check_availability(driver, max_retries=10, refresh_interval=45):
 
             if "en stock" in stock_text.lower():
                 print("✅ Le produit est disponible !")
+                send_kpi_to_bigquery("success", account_id, PRODUCT_URL)
                 return True
             else:
                 print("❌ Produit toujours indisponible.")
 
         except (NoSuchElementException, TimeoutException):
             print("⚠️ Produit non disponible ou l'élément 'En stock' est introuvable.")
+            send_kpi_to_bigquery("out_of_stock", account_id, PRODUCT_URL)
 
         if attempt < max_retries:
             print(f"🕒 Attente de {refresh_interval} secondes avant de rafraîchir...")
@@ -89,4 +91,3 @@ def check_availability(driver, max_retries=10, refresh_interval=45):
             sys.exit()
 
     return False
-

@@ -1,3 +1,4 @@
+import os
 import config
 import get_product
 from config import EMAIL, PASSWORD
@@ -7,40 +8,32 @@ from cart import buy_now
 from ident import login_amazon
 from prime import skip_prime_offer
 from checkout import proceed_to_checkout
-from screenshot import take_screenshot_on_error  
-import sys
-import traceback
+from kpi import send_kpi_to_bigquery
+from config import EMAIL
 
+# Configuration de l'authentification Google Cloud
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/lucas/Desktop/Bot Amazon/key.json"
 
-def main():
-    bot = None
-    try:
-        print("\U0001f512 Initialisation du bot Amazon...")
-        bot = AmazonBot()
+# Initialisation du bot
+bot = AmazonBot()
 
-        login_amazon(bot.driver, EMAIL, PASSWORD)
+try:
+    login_amazon(bot.driver, EMAIL, PASSWORD)
 
-        PRODUCT_URL = get_product.get_product_url()
-        bot.open_product_page(PRODUCT_URL)
+    PRODUCT_URL = get_product.get_product_url()
+    bot.open_product_page(PRODUCT_URL)
 
-        check_availability(bot.driver)  
+    # Vérification du stock
+    dispo = check_availability(bot.driver)
 
+    if dispo:
         buy_now(bot.driver)
-
         skip_prime_offer(bot.driver)
-
         proceed_to_checkout(bot.driver)
 
-    except Exception as e:
-        print("\n❌ Une erreur inattendue est survenue :", str(e))
-        traceback.print_exc()
-        if bot:
-            take_screenshot_on_error(bot.driver)
-            bot.close_browser()
-        sys.exit(1)
+except Exception as e:
+    print(f"💥 Erreur critique : {e}")
+    send_kpi_to_bigquery("error", EMAIL, PRODUCT_URL,e)
 
-    print("\n🎉 Bot exécuté avec succès !")
-
-
-if __name__ == "__main__":
-    main()
+finally:
+    bot.close_browser()
