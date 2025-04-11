@@ -33,7 +33,7 @@ try:
 
 except Exception as e:
     print(f"💥 Erreur critique : {e}")
-    send_kpi_to_bigquery("error", EMAIL, PRODUCT_URL,e)
+    send_kpi_to_bigquery("error", EMAIL, PRODUCT_URL)
 
 finally:
     bot.close_browser()
