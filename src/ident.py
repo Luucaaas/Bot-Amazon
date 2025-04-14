@@ -1,10 +1,10 @@
 import time
-import config  
+import src.config as config  
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from screenshot import take_screenshot_on_error
+from src.screenshot import take_screenshot_on_error
 
 def login_amazon(driver, email, password):
     """Gère l'identification automatique sur Amazon si la page de connexion apparaît."""

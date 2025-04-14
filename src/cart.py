@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from screenshot import take_screenshot_on_error
+from src.screenshot import take_screenshot_on_error
 
 def buy_now(driver):
     """Clique sur le bouton Achat immédiat si disponible."""

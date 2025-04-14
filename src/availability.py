@@ -4,9 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from kpi import send_kpi_to_bigquery
-import get_product
-from config import EMAIL
+from src.kpi import send_kpi_to_bigquery
+import src.get_product as get_product
+from src.config import EMAIL
 
 
 def accept_cookies(driver):

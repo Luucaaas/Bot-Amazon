@@ -1,15 +1,15 @@
 import os
-import config
-import get_product
-from config import EMAIL, PASSWORD
-from amazon_bot import AmazonBot
-from availability import check_availability
-from cart import buy_now
-from ident import login_amazon
-from prime import skip_prime_offer
-from checkout import proceed_to_checkout
-from kpi import send_kpi_to_bigquery
-from config import EMAIL
+import src.config as config
+import src.get_product as get_product
+from src.config import EMAIL, PASSWORD
+from src.amazon_bot import AmazonBot
+from src.availability import check_availability
+from src.cart import buy_now
+from src.ident import login_amazon
+from src.prime import skip_prime_offer
+from src.checkout import proceed_to_checkout
+from src.kpi import send_kpi_to_bigquery
+from src.config import EMAIL
 
 # Configuration de l'authentification Google Cloud
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/lucas/Desktop/Bot Amazon/key.json"

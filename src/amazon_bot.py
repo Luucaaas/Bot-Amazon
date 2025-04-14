@@ -1,5 +1,5 @@
 from selenium import webdriver
-import config
+import src.config as config
 
 class AmazonBot:
     def __init__(self):
