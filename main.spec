@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['main.py'],
+    ['src/main.py'],
     pathex=[],
     binaries=[],
-    datas=[('product_url.txt', '.'), ('config.json', '.')],
+    datas=[('assets/product_url.txt', '.'), ('assets/config.json', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

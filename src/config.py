@@ -1,10 +1,12 @@
 import os
-import sys 
+import sys
 import json
 
 def load_config():
-    # Obtenir le chemin absolu du fichier config.json
-    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    # Détecter si l'exécutable est lancé via PyInstaller
+    base_path = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
+
+    # Le fichier est à la racine (et non dans un dossier "assets")
     config_path = os.path.join(base_path, "config.json")
 
     # Charger la configuration
