@@ -58,7 +58,7 @@ src:
 
 ## 🔧 Installation
 
-1. Télécharger le dossier `dist/` depuis la section [📦 Releases](#) (à créer si ce n’est pas encore fait)
+1. Télécharger le dossier `dist/` depuis la section [📦 Releases](https://github.com/Luucaaas/Bot-Amazon/releases/tag/v1.0.0) 
 2. Placer les fichiers suivants dans ce dossier :
    - `bot.exe` : le fichier exécutable
    - `assets/config.json` : identifiants Amazon
@@ -153,7 +153,7 @@ src:
 
 ## 🔧 Installation
 
-1. Download the `dist/` folder from the [📦 Releases](#) section.
+1. Download the `dist/` folder from the [📦 Releases](https://github.com/Luucaaas/Bot-Amazon/releases/tag/v1.0.0).
 2. Place the following files into that folder:
    - `bot.exe` : executable file
    - `assets/config.json` : your Amazon credentials
