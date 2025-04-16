@@ -86,6 +86,7 @@ def check_availability(driver, max_retries=10, refresh_interval=45):
                     return False
             else:
                 print("❌ Produit toujours indisponible.")
+                send_kpi_to_bigquery("not_available", account_id, PRODUCT_URL)
 
         except (NoSuchElementException, TimeoutException):
             print("⚠️ Produit non disponible ou l'élément 'En stock' est introuvable.")

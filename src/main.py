@@ -13,6 +13,7 @@ from config import EMAIL
 
 # Configuration de l'authentification Google Cloud
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/lucas/Desktop/Bot Amazon/assets/key.json"
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/lucas/Desktop/Bot Amazon/dist/key.json"
 
 # Initialisation du bot
 bot = AmazonBot()

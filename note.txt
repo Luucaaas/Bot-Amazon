@@ -1,1 +1,1 @@
-pyinstaller --onefile --add-data "product_url.txt:." --add-data "config.json:." main.py
+ pyinstaller --onefile --add-data "assets/product_url.txt:." --add-data "assets/config.json:." --add-data "assets/key.json:."  src/main.py
