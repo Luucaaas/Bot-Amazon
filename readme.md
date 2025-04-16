@@ -76,14 +76,6 @@ src:
 
 ---
 
-## 🎥 Démo (optionnelle)
-
-Ajoute ici un GIF ou un lien vers une vidéo YouTube :
-
-> 📽️ *[Lien vers la démo ici]*
-
----
-
 ## 👨‍💻 Auteur
 
 Développé par **Lucas Leclercq**  
