@@ -254,57 +254,57 @@
   ('product_url.txt',
    '/Users/lucas/Desktop/Bot Amazon/assets/product_url.txt',
    'DATA'),
-  ('google_cloud_bigquery-3.31.0.dist-info/METADATA',
+  ('google_cloud_bigquery-3.31.0.dist-info/LICENSE',
    '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/METADATA',
-   'DATA'),
-  ('requests-2.32.3.dist-info/WHEEL',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/WHEEL',
-   'DATA'),
-  ('google_cloud_bigquery-3.31.0.dist-info/REQUESTED',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/REQUESTED',
-   'DATA'),
-  ('requests-2.32.3.dist-info/RECORD',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/RECORD',
-   'DATA'),
-  ('google_cloud_bigquery-3.31.0.dist-info/RECORD',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/RECORD',
+   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/LICENSE',
    'DATA'),
   ('google_cloud_bigquery-3.31.0.dist-info/INSTALLER',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/INSTALLER',
    'DATA'),
-  ('requests-2.32.3.dist-info/top_level.txt',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/top_level.txt',
-   'DATA'),
-  ('requests-2.32.3.dist-info/LICENSE',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/LICENSE',
-   'DATA'),
-  ('google_cloud_bigquery-3.31.0.dist-info/top_level.txt',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/top_level.txt',
-   'DATA'),
   ('requests-2.32.3.dist-info/METADATA',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/METADATA',
-   'DATA'),
-  ('google_cloud_bigquery-3.31.0.dist-info/LICENSE',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/LICENSE',
    'DATA'),
   ('requests-2.32.3.dist-info/INSTALLER',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/INSTALLER',
    'DATA'),
+  ('requests-2.32.3.dist-info/RECORD',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/RECORD',
+   'DATA'),
+  ('requests-2.32.3.dist-info/LICENSE',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/LICENSE',
+   'DATA'),
   ('google_cloud_bigquery-3.31.0.dist-info/WHEEL',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/WHEEL',
+   'DATA'),
+  ('requests-2.32.3.dist-info/top_level.txt',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/top_level.txt',
+   'DATA'),
+  ('google_cloud_bigquery-3.31.0.dist-info/top_level.txt',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/top_level.txt',
+   'DATA'),
+  ('google_cloud_bigquery-3.31.0.dist-info/METADATA',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/METADATA',
+   'DATA'),
+  ('google_cloud_bigquery-3.31.0.dist-info/REQUESTED',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/REQUESTED',
+   'DATA'),
+  ('google_cloud_bigquery-3.31.0.dist-info/RECORD',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/google_cloud_bigquery-3.31.0.dist-info/RECORD',
+   'DATA'),
+  ('requests-2.32.3.dist-info/WHEEL',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/requests-2.32.3.dist-info/WHEEL',
    'DATA'),
   ('certifi/cacert.pem',
    '/Users/lucas/Desktop/Bot '
@@ -318,9 +318,17 @@
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/grpc/_cython/_credentials/roots.pem',
    'DATA'),
-  ('google_api_core-2.24.2.dist-info/top_level.txt',
+  ('google_api_core-2.24.2.dist-info/RECORD',
    '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/top_level.txt',
+   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/RECORD',
+   'DATA'),
+  ('google_api_core-2.24.2.dist-info/METADATA',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/METADATA',
+   'DATA'),
+  ('google_api_core-2.24.2.dist-info/INSTALLER',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/INSTALLER',
    'DATA'),
   ('google_api_core-2.24.2.dist-info/WHEEL',
    '/Users/lucas/Desktop/Bot '
@@ -330,45 +338,37 @@
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/LICENSE',
    'DATA'),
-  ('google_api_core-2.24.2.dist-info/INSTALLER',
+  ('google_api_core-2.24.2.dist-info/top_level.txt',
    '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/INSTALLER',
-   'DATA'),
-  ('google_api_core-2.24.2.dist-info/METADATA',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/METADATA',
-   'DATA'),
-  ('google_api_core-2.24.2.dist-info/RECORD',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/RECORD',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+   'Amazon/venv/lib/python3.12/site-packages/google_api_core-2.24.2.dist-info/top_level.txt',
    'DATA'),
   ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
    'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+   'DATA'),
   ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
    'DATA'),
   ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
    'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
    '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
    'DATA'),
   ('setuptools/_vendor/jaraco/text/Lorem ipsum.txt',
    '/Users/lucas/Desktop/Bot '
@@ -379,49 +379,69 @@
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz',
    'DATA'),
-  ('selenium/webdriver/common/devtools/v132/py.typed',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/devtools/v132/py.typed',
-   'DATA'),
-  ('selenium/webdriver/common/mutation-listener.js',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/mutation-listener.js',
-   'DATA'),
   ('selenium/webdriver/common/devtools/v134/py.typed',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/devtools/v134/py.typed',
-   'DATA'),
-  ('selenium/webdriver/common/linux/selenium-manager',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager',
-   'DATA'),
-  ('selenium/webdriver/remote/findElements.js',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/findElements.js',
-   'DATA'),
-  ('selenium/webdriver/remote/getAttribute.js',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/getAttribute.js',
-   'DATA'),
-  ('selenium/webdriver/remote/isDisplayed.js',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/isDisplayed.js',
-   'DATA'),
-  ('selenium/py.typed',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/py.typed',
-   'DATA'),
-  ('selenium/webdriver/firefox/webdriver_prefs.json',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/firefox/webdriver_prefs.json',
    'DATA'),
   ('selenium/webdriver/common/devtools/v133/py.typed',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/devtools/v133/py.typed',
    'DATA'),
+  ('selenium/webdriver/remote/findElements.js',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/findElements.js',
+   'DATA'),
+  ('selenium/py.typed',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/py.typed',
+   'DATA'),
+  ('selenium/webdriver/common/linux/selenium-manager',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager',
+   'DATA'),
   ('selenium/webdriver/common/windows/selenium-manager.exe',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/windows/selenium-manager.exe',
+   'DATA'),
+  ('selenium/webdriver/remote/isDisplayed.js',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/isDisplayed.js',
+   'DATA'),
+  ('selenium/webdriver/common/devtools/v132/py.typed',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/devtools/v132/py.typed',
+   'DATA'),
+  ('selenium/webdriver/remote/getAttribute.js',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/remote/getAttribute.js',
+   'DATA'),
+  ('selenium/webdriver/firefox/webdriver_prefs.json',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/firefox/webdriver_prefs.json',
+   'DATA'),
+  ('selenium/webdriver/common/mutation-listener.js',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/selenium/webdriver/common/mutation-listener.js',
+   'DATA'),
+  ('setuptools/_vendor/wheel-0.45.1.dist-info/LICENSE.txt',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/LICENSE.txt',
+   'DATA'),
+  ('setuptools/_vendor/wheel-0.45.1.dist-info/entry_points.txt',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/entry_points.txt',
+   'DATA'),
+  ('setuptools/_vendor/wheel-0.45.1.dist-info/INSTALLER',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/INSTALLER',
+   'DATA'),
+  ('setuptools/_vendor/wheel-0.45.1.dist-info/METADATA',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA',
+   'DATA'),
+  ('setuptools/_vendor/wheel-0.45.1.dist-info/WHEEL',
+   '/Users/lucas/Desktop/Bot '
+   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/WHEEL',
    'DATA'),
   ('setuptools/_vendor/wheel-0.45.1.dist-info/REQUESTED',
    '/Users/lucas/Desktop/Bot '
@@ -430,26 +450,6 @@
   ('setuptools/_vendor/wheel-0.45.1.dist-info/RECORD',
    '/Users/lucas/Desktop/Bot '
    'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/RECORD',
-   'DATA'),
-  ('setuptools/_vendor/wheel-0.45.1.dist-info/METADATA',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/METADATA',
-   'DATA'),
-  ('setuptools/_vendor/wheel-0.45.1.dist-info/entry_points.txt',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/entry_points.txt',
-   'DATA'),
-  ('setuptools/_vendor/wheel-0.45.1.dist-info/LICENSE.txt',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/LICENSE.txt',
-   'DATA'),
-  ('setuptools/_vendor/wheel-0.45.1.dist-info/INSTALLER',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/INSTALLER',
-   'DATA'),
-  ('setuptools/_vendor/wheel-0.45.1.dist-info/WHEEL',
-   '/Users/lucas/Desktop/Bot '
-   'Amazon/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.dist-info/WHEEL',
    'DATA'),
   ('base_library.zip',
    '/Users/lucas/Desktop/Bot Amazon/build/main/base_library.zip',

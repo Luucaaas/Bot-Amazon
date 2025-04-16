@@ -5,8 +5,8 @@ def get_product_url():
 
     base_path = getattr(sys, '_MEIPASS', os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
     
-    file_path = os.path.join(base_path, "assets", "product_url.txt")
-    #file_path = os.path.join(base_path,"product_url.txt")
+    #file_path = os.path.join(base_path, "assets", "product_url.txt")
+    file_path = os.path.join(base_path,"product_url.txt")
 
 
     if not os.path.exists(file_path):

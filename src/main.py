@@ -9,11 +9,14 @@ from ident import login_amazon
 from prime import skip_prime_offer
 from checkout import proceed_to_checkout
 from kpi import send_kpi_to_bigquery
+from config import resource_path
 from config import EMAIL
 
 # Configuration de l'authentification Google Cloud
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/lucas/Desktop/Bot Amazon/assets/key.json"
-#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/lucas/Desktop/Bot Amazon/dist/key.json"
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = resource_path("assets/key.json")
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = resource_path("key.json")
+
+
 
 # Initialisation du bot
 bot = AmazonBot()
