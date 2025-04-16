@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['src\\main.py'],
+    ['src/main.py'],
     pathex=[],
     binaries=[],
     datas=[('assets/product_url.txt', '.'), ('assets/config.json', '.'), ('assets/key.json', '.')],

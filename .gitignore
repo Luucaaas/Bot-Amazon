@@ -1,1 +1,3 @@
 **/venv/
+/assets/key.json
+/dist/key.json
