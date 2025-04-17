@@ -3,13 +3,11 @@ import sys
 import json
 
 def resource_path(relative_path):
-    """Retourne le chemin absolu vers un fichier, même avec PyInstaller."""
+    """Retourne le chemin absolu vers un fichier depuis la racine du projet."""
     if getattr(sys, 'frozen', False):
-        
         base_path = os.path.dirname(sys.executable)
     else:
-        
-        base_path = os.path.abspath(os.path.dirname(__file__))
+        base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     return os.path.join(base_path, relative_path)
 
 

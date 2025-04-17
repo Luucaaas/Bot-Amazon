@@ -1,6 +1,7 @@
 from google.cloud import bigquery
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import pytz
 
 
 def send_kpi_to_bigquery(event_type, account_id, product_url, message=None):
@@ -9,7 +10,7 @@ def send_kpi_to_bigquery(event_type, account_id, product_url, message=None):
     table_id = "amazon-bot-kpi.bot_metrics.kpi_table"  
     
     rows_to_insert = [{
-        "timestamp": datetime.now(ZoneInfo("Europe/Paris")).isoformat(),
+        "timestamp":  datetime.now().isoformat(),
         "event_type": event_type,
         "account_id": account_id,
         "product_url": product_url,
