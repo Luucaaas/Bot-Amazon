@@ -61,9 +61,9 @@ src:
 1. Télécharger le dossier `dist/` depuis la section [📦 Releases](https://github.com/Luucaaas/Bot-Amazon/releases/tag/v1.0.0) 
 2. Placer les fichiers suivants dans ce dossier :
    - `bot.exe` : le fichier exécutable
-   - `assets/config.json` : identifiants Amazon
-   - `assets/product_url.txt` : lien du produit Amazon à suivre
-   - `assets/key-service.json` : ta clé d’authentification Google Cloud
+   - `config.json` : identifiants Amazon
+   - `product_url.txt` : lien du produit Amazon à suivre
+   - `key.json` : ta clé d’authentification Google Cloud
 
 3. Double-cliquer sur le `.exe` : le bot se lance automatiquement.
 
@@ -148,9 +148,9 @@ src:
 1. Download the `dist/` folder from the [📦 Releases](https://github.com/Luucaaas/Bot-Amazon/releases/tag/v1.0.0).
 2. Place the following files into that folder:
    - `bot.exe` : executable file
-   - `assets/config.json` : your Amazon credentials
-   - `assets/product_url.txt` : product link to monitor
-   - `assets/key-service.json` : Google Cloud authentication key
+   - `config.json` : your Amazon credentials
+   - `product_url.txt` : product link to monitor
+   - `key.json` : Google Cloud authentication key
 
 3. Double-click the `.exe` file — the bot starts instantly.
 

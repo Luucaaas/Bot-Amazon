@@ -20,3 +20,4 @@ def load_config():
 config = load_config()
 EMAIL = config["email"]
 PASSWORD = config["password"]
+TRY = config["try"]
