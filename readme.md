@@ -35,21 +35,21 @@ Un bot Python intelligent conçu pour **automatiser l'achat d’un produit Amazo
 ## 📁 Structure du projet
 
 src:
-  ├──main.py: file
-  ├──amazon_bot.py: file
-  ├──availability.py: file
-  ├──config.py: file
-  ├──checkout.py file
-  ├──prime.py file
-  ├──screenshot.py
-  ├──cart.py: file
-  ├──get_product.py: file
-  ├──ident.py: file
-  ├──kpi.py: file
-  ├──assets:
-    └── config.json: file
-    └── product_url.txt: file
-    └── key.json: file
+  - main.py: file
+  - amazon_bot.py: file
+  - availability.py: file
+  - config.py: file
+  - checkout.py file
+  - prime.py file
+  - screenshot.py
+  - cart.py: file
+  - get_product.py: file
+  - ident.py: file
+  - kpi.py: file
+  - assets:
+      - config.json: file
+      - product_url.txt: file
+      - key.json: file
 
 ---
 
@@ -140,21 +140,21 @@ Perfect for limited drops, rare items, or short-lived promotions.
 ## 📁 Project Structure
 
 src:
-  ├──main.py: file
-  ├──amazon_bot.py: file
-  ├──availability.py: file
-  ├──config.py: file
-  ├──checkout.py file
-  ├──prime.py file
-  ├──screenshot.py
-  ├──cart.py: file
-  ├──get_product.py: file
-  ├──ident.py: file
-  ├──kpi.py: file
-  ├──assets:
-    └── config.json: file
-    └── product_url.txt: file
-    └── key.json: file
+  - main.py: file
+  - amazon_bot.py: file
+  - availability.py: file
+  - config.py: file
+  - checkout.py file
+  - prime.py file
+  - screenshot.py
+  - cart.py: file
+  - get_product.py: file
+  - ident.py: file
+  - kpi.py: file
+  - assets:
+      - config.json: file
+      - product_url.txt: file
+      - key.json: file
 
 
 ---
