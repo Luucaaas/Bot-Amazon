@@ -1,4 +1,4 @@
-# 🤖 Amazon Auto-Buyer Bot
+# 🤖 Bot Amazon – Achat automatique intelligent
 
 Un bot Python intelligent conçu pour **automatiser l'achat d’un produit Amazon** dès qu’il devient disponible. Il est particulièrement utile pour les objets rares, les drops ou les promotions à durée limitée.
 
@@ -35,15 +35,21 @@ Un bot Python intelligent conçu pour **automatiser l'achat d’un produit Amazo
 ## 📁 Structure du projet
 
 src:
-  main.py: file
-  bot.py: file
-  availability.py: file
-  config.py: file
-  kpi.py: file
-  assets:
-    config.json: file
-    product_url.txt: file
-
+  ├──main.py: file
+  ├──amazon_bot.py: file
+  ├──availability.py: file
+  ├──config.py: file
+  ├──checkout.py file
+  ├──prime.py file
+  ├──screenshot.py
+  ├──cart.py: file
+  ├──get_product.py: file
+  ├──ident.py: file
+  ├──kpi.py: file
+  ├──assets:
+    └── config.json: file
+    └── product_url.txt: file
+    └── key.json: file
 
 ---
 
@@ -69,6 +75,17 @@ src:
 
 ---
 
+## 🧪 Lancer depuis le code source
+
+1. Cloner le repo :
+
+git clone https://github.com/Luucaaas/Bot-Amazon.git
+cd Bot-Amazon
+pip install -r requirements.txt
+python src/main.py
+
+--
+
 ## 🛡️ Sécurité & limitations
 
 > ⚠️ **Ce projet est un outil d’automatisation à usage personnel.** Son utilisation doit rester conforme aux conditions d'utilisation d'Amazon.  
@@ -80,14 +97,15 @@ src:
 
 Développé par **Lucas Leclercq**  
 📧 luc.lec38@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/ton-profil)
+🔗 [LinkedIn](www.linkedin.com/in/lucasleclercq1)
 
 -------------------------------------------------------------------------------------------------------------------------------
 
 
-# 🤖 Amazon Auto-Buyer Bot
+# 🤖 Amazon Bot – Smart Auto-Purchase
 
-An intelligent Python bot designed to **automate the purchase of an Amazon product** as soon as it becomes available. Perfect for limited-stock items, drops, or flash sales.
+A smart Python bot designed to **automatically buy an Amazon product** as soon as it becomes available.  
+Perfect for limited drops, rare items, or short-lived promotions.
 
 ---
 
@@ -122,14 +140,21 @@ An intelligent Python bot designed to **automate the purchase of an Amazon produ
 ## 📁 Project Structure
 
 src:
-  main.py: file
-  bot.py: file
-  availability.py: file
-  config.py: file
-  kpi.py: file
-  assets:
-    config.json: file
-    product_url.txt: file
+  ├──main.py: file
+  ├──amazon_bot.py: file
+  ├──availability.py: file
+  ├──config.py: file
+  ├──checkout.py file
+  ├──prime.py file
+  ├──screenshot.py
+  ├──cart.py: file
+  ├──get_product.py: file
+  ├──ident.py: file
+  ├──kpi.py: file
+  ├──assets:
+    └── config.json: file
+    └── product_url.txt: file
+    └── key.json: file
 
 
 ---
@@ -156,6 +181,17 @@ src:
 
 ---
 
+## 🧪 Running from Source
+
+1. Clone the repository:
+
+git clone https://github.com/Luucaaas/Bot-Amazon.git
+cd Bot-Amazon
+pip install -r requirements.txt
+python src/main.py
+
+--
+
 ## 🛡️ Disclaimer
 
 > ⚠️ **This project is for personal automation purposes only.**  
@@ -169,7 +205,7 @@ src:
 
 Developed by **Lucas Leclercq**  
 📧 luc.lec38@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)
+🔗 [LinkedIn](www.linkedin.com/in/lucasleclercq1)
 
 ---
 
