@@ -1,4 +1,5 @@
 import os
+import time
 import config as config
 import get_product as get_product
 from config import EMAIL, PASSWORD
@@ -26,6 +27,8 @@ try:
 
     PRODUCT_URL = get_product.get_product_url()
     bot.open_product_page(PRODUCT_URL)
+    time.sleep(15)
+
 
     # Vérification du stock
     dispo = check_availability(bot.driver)
@@ -33,7 +36,9 @@ try:
     if dispo:
         buy_now(bot.driver)
         skip_prime_offer(bot.driver)
+        time.sleep(5)
         proceed_to_checkout(bot.driver)
+        time.sleep(15)
 
 except Exception as e:
     print(f"💥 Erreur critique : {e}")
