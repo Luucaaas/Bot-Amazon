@@ -4,6 +4,39 @@ Un bot Python intelligent conçu pour **automatiser l'achat d’un produit Amazo
 
 ---
 
+## ✨ À propos du projet
+
+🎓 8 mois se sont écoulés depuis la fin de mon alternance.  
+8 mois de recherches d'emploi, d'envois de candidatures, de suivis d’e-learnings, de certifications, et de tentatives pour faire ressortir ma valeur sur un CV.
+
+Et puis il y a 2 mois, une idée a émergé d'une simple discussion.  
+Un ami me partageait le temps qu’il passait sur Amazon à essayer d’acheter des produits biens spécifiques… et rarement en stock.
+
+💡 Ma solution : créer un bot capable d’acheter automatiquement un article dès qu’il est remis en stock sur Amazon.
+
+Je ne suis "que" Data Analyst Junior, mais j’ai relevé le défi.  
+Pour apprendre. Pour me challenger.  
+Et surtout, pour prouver aux recruteurs que j’ai ma place dans une entreprise.
+
+🚀 Après 1 mois et demi de conception, voici le projet final :  
+Un robot alimenté par une simple URL, qui surveille Amazon en temps réel pour détecter l’article rare… et passer commande dès qu’il est dispo.
+
+🧠 Techniquement :
+- 100 % Python
+- Navigation automatisée avec Selenium
+- KPI de succès, d’échecs, et d’indisponibilité envoyés vers BigQuery (GCP)
+- Dashboard d’analyse pour suivre les performances (eh oui, je reste Data Analyst avant tout !)
+
+📁 Le tout packagé dans un exécutable simple à utiliser, même sans connaissance technique.
+
+✅ En un mois, j’ai livré un outil complet, qui répond parfaitement au cahier des charges.  
+Et ce n’est que le début… je continue à l’améliorer et à monter en compétences.
+
+🧪 Vous voulez tester ? Le robot est dispo juste ici 👇  
+🔗 [📦 Releases](https://github.com/Luucaaas/Bot-Amazon/releases/tag/v1.0.0)
+
+---
+
 ## 🚀 Fonctionnalités principales
 
 | Fonction                | Description |
@@ -106,6 +139,39 @@ Développé par **Lucas Leclercq**
 
 A smart Python bot designed to **automatically buy an Amazon product** as soon as it becomes available.  
 Perfect for limited drops, rare items, or short-lived promotions.
+
+---
+
+## ✨ About the project
+
+🎓 8 months have passed since the end of my work-study program.  
+8 months of job applications, online certifications, personal projects, and trying to prove my worth on a CV.
+
+Then 2 months ago, an idea came out of a casual conversation.  
+A friend shared how much time he was spending on Amazon trying to buy a rare item that kept going out of stock.
+
+💡 My solution: Build a bot that automatically buys the item as soon as it's back in stock.
+
+I’m “just” a Junior Data Analyst, but I took the challenge.  
+To learn. To push myself.  
+And most of all, to show recruiters that I deserve a place in their team.
+
+🚀 After 6 weeks of research and development, here is the final product:  
+A bot that takes a simple URL, monitors Amazon in real time, and places an order instantly when the item is back.
+
+🧠 Tech-wise:
+- 100% Python
+- Automated browser with Selenium
+- Success/failure/unavailable KPIs sent to BigQuery (GCP)
+- Analytics dashboard to track performance (still a Data Analyst at heart!)
+
+📁 The tool is packaged as a simple `.exe` to run, no technical skills needed.
+
+✅ In one month, I delivered a complete product that meets every requirement.  
+This is only the beginning… I'm still improving and learning every day.
+
+🧪 Want to try it? The bot is available here 👇
+🔗 [📦 Releases](https://github.com/Luucaaas/Bot-Amazon/releases/tag/v1.0.0)
 
 ---
 
