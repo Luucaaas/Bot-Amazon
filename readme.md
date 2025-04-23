@@ -54,6 +54,17 @@ Et ce n’est que le début… je continue à l’améliorer et à monter en com
 
 ---
 
+## ⚙️ Fonctionnement
+
+- Le robot se connecte à Amazon avec les identifiants fournis dans config.json. ⚠️ Un captcha peut apparaître au lancement : il doit être complété manuellement.
+- Il se rend sur la page du produit spécifiée dans product_url.txt.
+- Il vérifie que l'article soit en stock, vendu et expédié par Amazon.
+- Si ces conditions ne sont pas remplies, il rafraîchit la page autant de fois que défini dans config.json.
+- Si les conditions sont remplies, il clique sur "Acheter cet article" puis sur "Valider votre paiement", et se ferme automatiquement.
+- Si les conditions ne sont toujours pas remplies après le nombre maximal de rafraîchissements, le robot se ferme proprement.
+
+---
+
 ## 🧰 Technologies utilisées
 
 - 🐍 Python 3.10+
@@ -100,7 +111,7 @@ src:
 1. Télécharger le dossier `dist/` depuis la section [📦 Releases](https://github.com/Luucaaas/Bot-Amazon/releases/tag/v1.0.0) 
 2. Placer les fichiers suivants dans ce dossier :
    - `bot.exe` : le fichier exécutable
-   - `config.json` : identifiants Amazon
+   - `config.json` : identifiants Amazon et nombre de refresh souhaité
    - `product_url.txt` : lien du produit Amazon à suivre
    - `key.json` : ta clé d’authentification Google Cloud
 
@@ -189,6 +200,17 @@ This is only the beginning… I'm still improving and learning every day.
 | 📸 Error Screenshot    | Captures screenshots on critical errors |
 | ⚙️ Multi-machine Ready | KPI tracking across multiple machines/accounts |
 | 🧩 Easy Setup          | Editable `config.json` configuration file |
+
+---
+
+## ⚙️ How It Works
+
+- The bot logs into Amazon using the credentials provided in config.json. ⚠️ A captcha may appear at launch and must be solved manually.
+- It navigates to the product page specified in product_url.txt.
+- It checks if the item is in stock, and sold and shipped by Amazon.
+- If the conditions are not met, the bot refreshes the page as many times as specified in config.json.
+- If the conditions are met, the bot clicks "Buy Now", then "Place your order", and shuts down automatically.
+- If the item remains unavailable after all refresh attempts, the bot exits cleanly.
 
 ---
 
